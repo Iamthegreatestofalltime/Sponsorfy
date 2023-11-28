@@ -51,7 +51,7 @@ export default function Testimonials() {
               {testimonial.image && <Image src={testimonial.image} alt={testimonial.name} width={160} height={160} style={{ borderRadius: '50%', marginBottom: '1rem' }} />}
               <span>⭐️⭐️⭐️⭐️⭐️</span>
               <div>
-                <p style={{ fontSize: '1rem', fontStyle: 'italic', margin: '1rem 0' }}>"{testimonial.quote}"</p>
+                <p style={{ fontSize: '1rem', fontStyle: 'italic', margin: '1rem 0' }}>{testimonial.quote}</p>
                 <p style={{ fontWeight: 'bold', margin: 0 }}>{testimonial.name}</p>
               </div>
             </div>

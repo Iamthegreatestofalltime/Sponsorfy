@@ -44,7 +44,7 @@ export default function HiringProcess() {
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '20px', marginTop: '20px' }}>
           {steps.map((step, index) => (
             <div key={index} className="py-10" style={{ backgroundColor: '#fff', borderRadius: '10px', width: '400px', textAlign: 'center', minHeight: '400px' }}>
-              <img src={step.icon} alt={step.title} style={{ display: 'block', width: '150px', height: '150px', margin: 'auto' }} />
+              <Image src={step.icon} alt={step.title} style={{ display: 'block', width: '150px', height: '150px', margin: 'auto' }} />
               <h3 className="mx-5 mt-10" style={{fontSize: '26px', fontWeight: '600'}}>{step.title}</h3>
               <p className="text-gray-600 mx-4 mt-4">{step.description}</p>
             </div>
